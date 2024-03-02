@@ -1,0 +1,30 @@
+/* Create Playlist Form Styles */
+.create-playlist-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .create-playlist-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .create-playlist-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .create-playlist-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-playlist-form button:hover {
+    background-color: #0056b3;
+  }
+  
