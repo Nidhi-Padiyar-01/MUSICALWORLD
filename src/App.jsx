@@ -9,8 +9,8 @@ import {AnimatePresence} from 'framer-motion'
 import Navbar from './components/Navbar/Navbar';
 import Signup from './components/Signup/Signup';
 import  Favorite  from './components/Favourites/Favourite'
-import SongList from './components/Songs/Songs';
-
+import Songs from './components/Songs/Songs'
+import SongList from './components/Songdisplay/Songdisplay';
 
 
 
@@ -31,6 +31,7 @@ function App() {
         <Route path="/Songs" element={<SongList/>}/>
         <Route path="/Playlist" element={<Playlist/>}/>
         <Route path="/Favorites" element={<Favorite/>}/>
+        <Route path="/upload" element={<Songs/>}/>
         
         
         
