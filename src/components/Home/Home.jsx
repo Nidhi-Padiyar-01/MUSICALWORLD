@@ -1,11 +1,14 @@
-
 import "./Home.css";
 import React from "react";
 
+
 function Home() {
   return (
-    
-    <div class="content">
+    <div className="home-main">
+      <img className="home-img" src="home2.webp"/>
+
+    <div className="home">
+    <div className="content">
     <h1>THE BEST</h1>
     <br />
     <h2>MUSIC STUDIO EVER...!!</h2>
@@ -16,8 +19,11 @@ function Home() {
       It speaks to you. It changes you.” ― Hannah Harrington, Saving June
     </p>
     <br /><br />
-    <button class="login">Log in</button>
+    <button className="login">Log in</button>
   </div>
+  </div>
+  </div>
+
 
 
   );

@@ -1,0 +1,27 @@
+
+nav {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 50%;
+    
+  }
+  nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  nav li:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.551);
+    background-color: rgba(82, 28, 140, 0.807);
+    color: aliceblue;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 1s;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+  }
