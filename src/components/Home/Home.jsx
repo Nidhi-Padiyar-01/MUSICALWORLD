@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import "./Home.css";
 import React from "react";
+=======
+
+
+import './Home.css'
+
+>>>>>>> b645c92ec3426e76700e66bdef2ebd06dc8495b1
 
 
 function Home() {
   return (
+<<<<<<< HEAD
     <div className="home-main">
       <img className="home-img" src="home2.webp"/>
 
@@ -27,6 +35,12 @@ function Home() {
 
 
   );
+=======
+    <div className="w-full h-auto flex flex-col items-center justify-center bg-primary">
+    
+    </div>
+  )
+>>>>>>> b645c92ec3426e76700e66bdef2ebd06dc8495b1
 }
 
 export default Home

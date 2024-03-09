@@ -29,7 +29,7 @@
     width: 100%;
     margin: auto;
     font-size: 80px;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 255, 242);
   }
   .content h2 {
     font-size: 50px;
@@ -156,4 +156,17 @@
     background-color: violet;
     border-radius: 50px;
     
+<<<<<<< HEAD
   }  */
+=======
+  }
+
+  body{
+    
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  }
+  h1{
+    color: aqua;
+  }
+>>>>>>> b645c92ec3426e76700e66bdef2ebd06dc8495b1
